@@ -1,8 +1,8 @@
 ﻿{
-    "generated_at":  "2026-07-16T13:52:27Z",
+    "generated_at":  "2026-07-16T15:35:41Z",
     "source":  "XIU2/CloudflareSpeedTest; tested locally on the publisher device",
     "criteria":  {
-                     "qualified_count":  1,
+                     "qualified_count":  4,
                      "port":  443,
                      "packet_loss":  0,
                      "min_download_mbps":  40,
@@ -15,10 +15,34 @@
     "nodes":  [
                   {
                       "name":  "JP1",
-                      "address":  "172.64.52.171",
-                      "endpoint":  "172.64.52.171:443",
-                      "download_mbps":  54.67,
-                      "latency_ms":  51.54,
+                      "address":  "162.159.45.133",
+                      "endpoint":  "162.159.45.133:443",
+                      "download_mbps":  68.76,
+                      "latency_ms":  44.03,
+                      "colo":  "NRT"
+                  },
+                  {
+                      "name":  "JP2",
+                      "address":  "108.162.198.107",
+                      "endpoint":  "108.162.198.107:443",
+                      "download_mbps":  56.06,
+                      "latency_ms":  53.33,
+                      "colo":  "NRT"
+                  },
+                  {
+                      "name":  "JP3",
+                      "address":  "172.64.52.55",
+                      "endpoint":  "172.64.52.55:443",
+                      "download_mbps":  50.61,
+                      "latency_ms":  56.58,
+                      "colo":  "NRT"
+                  },
+                  {
+                      "name":  "JP4",
+                      "address":  "172.64.53.253",
+                      "endpoint":  "172.64.53.253:443",
+                      "download_mbps":  40.56,
+                      "latency_ms":  48.46,
                       "colo":  "NRT"
                   }
               ]
