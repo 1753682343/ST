@@ -1,8 +1,8 @@
 ﻿{
-    "generated_at":  "2026-07-18T06:18:25Z",
+    "generated_at":  "2026-07-18T11:15:27Z",
     "source":  "XIU2/CloudflareSpeedTest; tested locally on the publisher device",
     "criteria":  {
-                     "qualified_count":  6,
+                     "qualified_count":  4,
                      "port":  443,
                      "packet_loss":  0,
                      "min_download_mbps":  45,
@@ -15,50 +15,34 @@
     "nodes":  [
                   {
                       "name":  "JP1",
-                      "address":  "172.64.52.215",
-                      "endpoint":  "172.64.52.215:443",
-                      "download_mbps":  77.74,
-                      "latency_ms":  61.37,
+                      "address":  "172.64.53.199",
+                      "endpoint":  "172.64.53.199:443",
+                      "download_mbps":  62.3,
+                      "latency_ms":  62.01,
                       "colo":  "NRT"
                   },
                   {
                       "name":  "JP2",
-                      "address":  "108.162.198.41",
-                      "endpoint":  "108.162.198.41:443",
-                      "download_mbps":  67.33,
-                      "latency_ms":  58.88,
+                      "address":  "172.64.52.225",
+                      "endpoint":  "172.64.52.225:443",
+                      "download_mbps":  55.7,
+                      "latency_ms":  45.9,
                       "colo":  "NRT"
+                  },
+                  {
+                      "name":  "SP1",
+                      "address":  "172.64.152.79",
+                      "endpoint":  "172.64.152.79:443",
+                      "download_mbps":  49.47,
+                      "latency_ms":  75.57,
+                      "colo":  "SIN"
                   },
                   {
                       "name":  "JP3",
-                      "address":  "172.64.53.145",
-                      "endpoint":  "172.64.53.145:443",
-                      "download_mbps":  67.3,
-                      "latency_ms":  50.84,
-                      "colo":  "NRT"
-                  },
-                  {
-                      "name":  "JP4",
-                      "address":  "162.159.45.187",
-                      "endpoint":  "162.159.45.187:443",
-                      "download_mbps":  60.38,
-                      "latency_ms":  57.14,
-                      "colo":  "NRT"
-                  },
-                  {
-                      "name":  "JP5",
-                      "address":  "162.159.44.5",
-                      "endpoint":  "162.159.44.5:443",
-                      "download_mbps":  46.91,
-                      "latency_ms":  49.31,
-                      "colo":  "NRT"
-                  },
-                  {
-                      "name":  "JP6",
-                      "address":  "162.159.39.154",
-                      "endpoint":  "162.159.39.154:443",
-                      "download_mbps":  46.74,
-                      "latency_ms":  50.37,
+                      "address":  "162.159.45.184",
+                      "endpoint":  "162.159.45.184:443",
+                      "download_mbps":  46.27,
+                      "latency_ms":  63.86,
                       "colo":  "NRT"
                   }
               ]
